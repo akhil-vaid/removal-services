@@ -1,1 +1,1 @@
-This website is designed for mobile first.
+This website is designed for mobile screen's first.
