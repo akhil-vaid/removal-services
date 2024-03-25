@@ -55,9 +55,28 @@ header{
 header a{
     text-decoration: none;
     color: inherit;
+    padding: 5px 5px 5px 5px;
   
     
 }
+
+header a:hover{background-color: #003333;}
+
+.dropdown-content {
+    position: absolute;
+    display: none;min-width: 160px;
+}
+
+#show:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a{
+    float: none;
+    display: block;
+    text-align: left;
+}
+
 h1{
     font-size:25px;
     font-weight: 900;
@@ -116,7 +135,7 @@ nav{
 #menu>li{
     margin-bottom: 1em;  
 }
-#menu li a:hover{text-decoration: underline;}
+#menu li a:hover{border-bottom: 1px solid white;}
 
 .active{
     border-bottom: 1px solid #fcfcfc;
@@ -565,15 +584,25 @@ footer{
     #ep{justify-content: center; text-align: justify;font-size: 120%;line-height: 40px;padding: 40px;}
     #epimg{margin-top: 1.5%;}
 /*SERVICES PAGE STYLES*/
-/* PAGE STYLES*/
+
+#heros{
+    background: url("../images/Feature-how-to-choose-a-removal-company.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 600px;
+position: relative;
+}
+#subc{ font-size:large; width: 200px; height: 50px; font-weight: bold;color: #fcfdfd;margin: 10px 0 10px 0;background-color: #990000;}
+#subc:hover{background-color: #003333;}
+
 
 /*PRODUCTS ON SALE STYLES*/
 #herop{background: url("../images/Image_-_Sell_products_online_.jpeg.webp") no-repeat center center/cover;
     width: 100%;
     height: 600px;
 position: relative;
-width: 100%;
+
     }
+    #cover-text h2{font-size: 100%;}
 #aarp{color: #fefcfc;font-size: x-large;text-transform: capitalize;position: absolute;
     bottom: 350px; right: 250px;font-size: 300%;background-color: #990000;padding: 10px 10px 10px 10px;opacity: 0.8;}
     #rcp{color: #fefcfc;font-size:large;text-transform: capitalize;position: absolute;
@@ -620,16 +649,102 @@ width: 100%;
     
     
   }
+  #cover-text{padding: 0;margin: 0;}
  
-  #aarp {display: none;}
-  #rcp{display:none;}      
+#aarp{right: 50px;bottom: 320px;font-size: 150%;background-color: #990000;margin: 0;} 
+#rcp{right: 50px;bottom: 220px;font-size: 150%;background-color: #990000;margin: 0;}     
      
 }
 
 @media screen and (min-width:653px){
+   
+    #container{align-items: center;}
     #con{column-count: 2;}
-   .gallery{width: 280px;}
+   .gallery{margin: 0;min-height: 250px;margin-bottom: 10px;}
    #container img{width: 280px;}
+
+   
+   
+  
    
    
 }
+
+@media screen and (min-width:1024px){
+    #con{column-count: 3;}
+    .gallery{page-break-inside: avoid;}
+    #container{margin-bottom: 25px;}
+    #aarp{right: 50px;bottom: 320px;font-size: 200%;background-color: #990000;margin: 0;} 
+#rcp{right: 50px;bottom: 220px;font-size: 200%;background-color: #990000;margin: 0;}  
+#cover-text{text-align: center;width: 50%;}   
+#cover-text h2{padding-left: 0;}
+}
+
+@media screen and (min-width:1260px){
+    #con{column-count: 4;}
+    .gallery{display: grid; margin: 0 20px 40px 20px;}
+}
+@media screen and (min-width:1535px){
+    #cover-text{padding: 5px 30px 5px 30px;}
+
+}
+
+/* ------------ GET QUOTE PAGE STYLES --------------*/
+#heroq{background: url("../images/house-removal-quotes-scaled-2560x1280.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 600px;
+position: relative;}
+
+#book-surveyq {width: 70%;margin: auto;line-height: 50px;text-align: center;}
+
+input[type=tel]{
+    width:550px;
+    height:50px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
+/* ------------ CONTACT PAGE STYLES --------------*/
+
+#tpab{margin: 50px auto 50px auto;display: block;}
+#contact1{display: flex;justify-content: space-evenly;}
+#contact1 img{border-radius: 10px;}
+form{justify-content: center;text-align: center;}
+/*#form{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+   
+    
+}*/
+input[type=text]{
+    width:550px;
+    height:50px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+input[type=email]{
+    width:550px;
+    height:50px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+#ad{
+    width: 380px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+input[type=submit] {
+    width: 250px;
+    height: 50px;
+   
+    margin-top: 20px;
+}
+#sub{ font-size:large; width: 200px; height: 50px; font-weight: bold;color: #003333;}
+
+#contact2{background-color: #990000; font-size: 20PX;display: flex; text-align: center;justify-content: space-evenly;padding: 50px 0 50px 0;}
+#i1 h3{margin: 20px 0 20px 0;}
+#i2 h3{margin: 20px 0 20px 0;}
+iframe{width: 100%;}

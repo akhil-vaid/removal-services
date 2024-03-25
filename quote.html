@@ -50,7 +50,7 @@
     </header>
     <!--main section-->
     <main>
-        <section id="hero">
+        <section id="heroq">
             <div id="cover-text">
                 <h2>Professional Services In</h2>
                 <h3>England, Scotland and Wales</h3>
@@ -58,71 +58,40 @@
            </section>
            <section id="reasons">
            <div id="tp"><img src="assets\images\trust-pilot.jpg" alt=""></div>
-            <h2 id="whu">Our Services</h2>
-            <div id="services">
-                <div id="a">
-                    <div>
-                        <i class="fa-solid fa-box-archive size"></i>
-                        <h3>Office Removals</h3>
-                        <hr>
-                        <p>Our office removals South West London service has been providing businesses of all scales based in South London. Our office removal service is available in & around the London area – allowing you to get on with the important things, like meetings.</p>
-                        <button id="sub">Find out more</button>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-house size"></i>
-                        <h3>House Removals</h3>
-                        <hr>
-                        <p>At BMS, our house removals are pristine. We believe no job is too small or big, this attitude has allowed us to grow with experience and knowledge in the house removals industry – meaning your experience will be unique.</p>
-                        <button id="sub">Find out more</button>
-                    </div>
+            <h2 id="whu">Online Quotation Form</h2>
+            <section id="formq">
+                <div id="book-surveyq">
+                    <h3>Please complete this form to help us to provide a fast, accurate quote for your move. Note: if a packing service is required and/or the volume is more than 1000 cubic feet, please contact our office so we can arrange a free of charge no obligation survey. The survey can be conducted on-site or via a video call.</h3>
+                    
                 </div>
-                <div id="b">
-                    <div>
-                        <i class="fa-solid fa-truck-front size"></i>
-                        <h3>Man & Van Service</h3>
-                        <hr>
-                        <p>If it’s flexibility that you need, we also offers a man and van service. Unlike our full house removal service, our man and van service lets you create and plan your move – your way.</p>
-                        <button id="sub">Find out more</button>
-                    </div>
-                    <div id="pad">
-                        <i class="fa-solid fa-boxes-stacked size"></i>
-                        <h3>Self Storage Solution</h3>
-                        <hr>
-                        <p>Looking for a self storage solution that is unrivalled? BMS Transport’s self storage solution will benefit you greatly. With our self storage, we always offer insurance – just to keep that peace of mind.</p>
-                        <button id="sub">Find out more</button>
-                    </div>
-                </div>
-                <div id="benifits-image">
-                    <div id="circle-cover-bg"></div>
-                </div>
-            </div>
-            <div id="award"><img src="assets\images\award.jpg" alt="award"></div>
-        </section>
-        <section id="form">
-            <div id="book-survey">
-                <h3>BOOK A FREE HOME SURVEY</h3>
-                <p>There are many factors involved when moving home so to ensure we tailor the job to your specific requirements we need to assess the job in order to account for every aspect of the move and so we can provide you with an accurate quote. Upon the visit our surveyor will give you a breakdown of our services so we can offer you the service most suited to your needs as well as a summary of what to expect on the day. It will also give you an opportunity to ask about the finer details of the move. Survey hours are flexible so we can fit around your schedule and our quick turnaround ensures that you will receive your quote either on the day of the survey or the day after, unless on a Friday or Saturday in which case we will get it to you by Monday.</p>
-            </div>
-            <form action="/action_page.php">
-                <label for="yourname">Your Name: ( Required )</label><br>
-                <input type="text" id="yourname"><br><br>
-                <label for="youremail">Your Email: ( Required )</label><br>
-                <input type="email" id="youremail"><br><br>
-                <label for="ad">How did you hear about us: ( Required )</label><br><br>
-                <select name="ad" id="ad">
-                    <option value="Google">Google</option>
-                    <option value="Bing">Bing</option>
-                    <option value="Friends">Friends</option>
-                    <option value="Newspaper">Newspaper</option>
-                    <option value="Other">Other</option>
-                  </select><br><br>
-                <label for="subject">Subject: ( Required )</label><br>
-                <input type="text" id="subject"><br><br>
-                <label for="message">Your Message: ( Required )</label><br>
-                <input type="text" id="message"><br><br>
-                <button id="sub">Send Message</button>
-              </form> 
-        </section>
+                <form action="/action_page.php">
+                    <label for="yourname">Your Name : ( Required )</label><br>
+                    <input type="text" id="yourname"><br><br>
+                    <label for="youremail">Your Email : ( Required )</label><br>
+                    <input type="email" id="youremail"><br><br>
+                    <label for="phone">Your phone number : ( Required )</label><br><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+                    <label for="ad">How did you hear about us : ( Required )</label><br><br>
+                    <select name="ad" id="ad">
+                        <option value="Google">Google</option>
+                        <option value="Bing">Bing</option>
+                        <option value="Friends">Friends</option>
+                        <option value="Newspaper">Newspaper</option>
+                        <option value="Other">Other</option>
+                      </select><br><br>
+                    <label for="subject">Subject : ( Required )</label><br>
+                    <input type="text" id="subject"><br><br>
+                    <label for="message">Pick up address : ( Required )</label><br>
+                <textarea name="message" rows="10" cols="75">Please add pick up address here including postcode..</textarea><br><br>
+                <label for="message">Drop off address : ( Required )</label><br>
+                <textarea name="message" rows="10" cols="75">Please add delivery address here including postcode..</textarea><br><br>
+                <label for="message">Your Message : ( Required )</label><br>
+                <textarea name="message" rows="10" cols="75">Please describe your requirements and any special requirements here..</textarea><br><br>
+                    <button id="sub">Send Message</button>
+                  </form> 
+            </section>
+            
+        
         <section id="sec1">
             <div id="op">
                 <h3>Our Promise</h3>
