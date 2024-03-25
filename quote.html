@@ -32,7 +32,13 @@
                     <ul id="menu">
                         <li><a href="index.html" >Home</a></li>
                         
-                        <li><a href="about.html">About</a></li>
+                        <li id="show">
+                            <a href="about.html">About <i class="fa-solid fa-caret-down"></i></a>
+                            <ul class="dropdown-content">
+                                <a href="#">About Us</a>
+                                <a href="#">Our Team</a>
+                                <a href="#">FAQ'S</a>
+                            </ul></li>
                         
                         <li><a href="services.html">Services</a></li>
                         
@@ -55,6 +61,8 @@
                 <h2>Professional Services In</h2>
                 <h3>England, Scotland and Wales</h3>
             </div>
+            <h2 id="aar">Get Quote</h2>
+            <h2 id="rc"><a href="callback.html">Request A Callback</a></h2>
            </section>
            <section id="reasons">
            <div id="tp"><img src="assets\images\trust-pilot.jpg" alt=""></div>
@@ -79,8 +87,8 @@
                         <option value="Newspaper">Newspaper</option>
                         <option value="Other">Other</option>
                       </select><br><br>
-                    <label for="subject">Subject : ( Required )</label><br>
-                    <input type="text" id="subject"><br><br>
+                      <label for="birthday">Date of Removal : ( Required )</label><br>
+                      <input type="date" id="removaldate" name="removaldate"> <br><br>
                     <label for="message">Pick up address : ( Required )</label><br>
                 <textarea name="message" rows="10" cols="75">Please add pick up address here including postcode..</textarea><br><br>
                 <label for="message">Drop off address : ( Required )</label><br>
