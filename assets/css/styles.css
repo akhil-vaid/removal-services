@@ -1,18 +1,28 @@
 /*DESIGNED FOR MOBILE FIRST !*/
 
-/* Google fonts import */
+/* ------------- Google fonts import ------------------ */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+
+
+
+/*------------------ genral styles---------------------- */
+/*------------------ genral styles---------------------- */
+/*------------------ genral styles---------------------- */
+/*------------------ genral styles---------------------- */
+
 /* astrisk selector to override default settings */
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-/*HOME PAGE STYLES*/
-/* genral styles for mobile first */
-body{
+
+
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -21,11 +31,12 @@ body{
     font-family: "Lato", sans-serif;
      
 }
-/*
 
 
-/*banner*/
-#banner p{
+
+/* --------- top banner -----------*/
+
+#banner p {
     background-color: #003333;
     text-align: center;
     width: 100%;
@@ -34,8 +45,9 @@ body{
    
 }
 
-/* header section */
-header{
+/* ---------- header section --------- */
+
+header {
     background-color: #990000;
     padding: 0 0.5rem;
     position: inherit;
@@ -48,61 +60,61 @@ header{
 }
 
 
-header a{
+header a {
     text-decoration: none;
     color: inherit;
     padding: 5px 5px 5px 5px;
-  
-    
 }
 
-header a:hover{background-color: #003333;}
+header a:hover {
+    background-color: #003333;
+}
 
 .dropdown-content {
     position: absolute;
     display: none;
     min-width: 140px;
     left: 0;
-    
     background-color: #003333;
 }
 
 #show:hover .dropdown-content {
     display: block;
 }
+
 #show {
     position: relative;
 }
-.dropdown-content a{
+
+.dropdown-content a {
     float: none;
     display: block;
     text-align: left;
 }
 
-h1{
+h1 {
     font-size:25px;
     font-weight: 900;
-    /*text-align: center; */
-    
     text-transform: uppercase;
     text-align: center;
 }
 
-#logo{
+/*#logo {
     color: rgb(252, 252, 252);
     text-decoration: none;
     
-}
-#logoimg{
+}*/
+
+#logoimg {
     width: 65px;
     height: 65px;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;    
 }
 
-/* Navbar styles */
+/* ---------------- Navbar styles --------------- */
 
-nav{
+nav {
     position: absolute;
     background-color: #990000;
     width: 100%;
@@ -113,18 +125,16 @@ nav{
     opacity: 0.8; 
 }
 
-/*Nav toggle*/
- #nav-toggle:checked~nav{
+/* ------------------ Nav toggle ----------------------*/
+ #nav-toggle:checked~nav {
     display: block;
-    
-    
 }
 
-#nav-toggle{
+#nav-toggle {
     display: none;
 }
 
-.nav-toggle-lable{
+.nav-toggle-lable {
     font-size: 2rem;
 }
 
@@ -134,14 +144,59 @@ nav{
     letter-spacing: 4px;
     font-size: 110%;
 }
-#menu>li{
+
+#menu > li{
     margin-bottom: 1em;  
 }
-#menu li a:hover{border-bottom: 1px solid white;}
+
+#menu li a:hover {
+    border-bottom: 1px solid white;
+}
 
 .active{
     border-bottom: 1px solid #fcfcfc;
 }
+
+
+/* -------------- footer section ------------------- */
+
+footer {
+    background-color: #990000;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#social-networks i {
+    padding: 5%;
+    font-size: 160%;
+    color: #fffdfd;
+}
+#copyright {
+    margin-top: 20px;
+}
+
+#copyright li a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+/* ---------- HOME PAGE STYLES -------------*/
+/* ---------- HOME PAGE STYLES -------------*/
+/* ---------- HOME PAGE STYLES -------------*/
+/* ---------- HOME PAGE STYLES -------------*/
+
 
 /* main section */
 main{background-color: #003333;}
@@ -254,33 +309,7 @@ input[type=submit] {
     font-weight: bold;
 }
 
-/* footer section */
-/* footer section */
-footer{
-    background-color: #990000;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    list-style-type: none;
-    padding: 20px 0;
-    text-align: center;
-}
 
-#social-networks{
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    padding: 20px 0;
-    text-align: center;
-}
-
-#social-networks i{
-    padding: 5%;
-    font-size: 160%;
-    color: #fffdfd;
-}
-#copyright{margin-top: 20px;}
-#copyright li a {text-decoration: none;color: #fcfcfc;}
 
 
 
@@ -291,14 +320,16 @@ footer{
     }
    
 
-#award{background-color: #990000;}}
+#award{background-color: #990000;}
+
+}
 
 /*Larger devices (lapotops and desktops, 985px and up ) */
 @media screen and (min-width:985px) {
     #banner{
         line-height: 50px;
-        font-size: 140%;
-    }
+        font-size: 140%;}
+    
     header{padding: 0 4rem;
         justify-content: space-between;
         
@@ -314,7 +345,7 @@ footer{
         h1{
             font-size:55px;
             font-weight: 800;
-            /*text-align: center; */
+            
            
             text-transform: uppercase;
             text-align: center;
@@ -446,28 +477,59 @@ footer{
     #copyright a{text-decoration: none; color: #fcfcfc; padding-top: 1%;}
     #copyright a:hover{text-decoration: underline;}
     #contact{font-weight: bold;font-size: 20px;}
-    #social-networks li{margin-left: 25px;}}
+    #social-networks li{margin-left: 25px;}
+}
+
 /*Larger devices (tablets, 1024px and up ) */
 @media screen and (min-width:1024px){
-    h1{font-size: 50px;margin-left: 10px;}
-    #cover-text{font-size: 35px;padding-top: 85px;
-        padding-left: 10px;}
-        #cover-text h3{font-size: 200%;}
-    #tp{width: 100%;
+    h1 { 
+        font-size: 50px;
+        margin-left: 10px;
+    }
+    #cover-text h2 {
+        font-size: 150%;
+        padding-top: 50px;
+    }
+    #cover-text h3 { 
+        font-size: 150%;
+    }
+    #tp { 
+        width: 100%;
         height: 250px;
-     margin: auto;
-     border-radius: 5px;
+        margin: auto;
+        border-radius: 5px;
      }
-     #pad{padding-top: 55px;}
-     #tp img{
+     #pad { 
+        padding-top: 55px;
+    }
+     #tp img {
     
         width: 480px;height: 250px;display: block;
         margin-left: auto;
         margin-right: auto;
         border-radius: 5px;
     }
+    #rc { 
+        color: #fefcfc;
+        font-size:large;
+        text-transform: capitalize;
+        position: absolute;
+        bottom: 200px;
+        right: 150px;
+        font-size: 250%;
+        background-color: #990000;
+        padding: 10px 10px 10px 10px;opacity: 0.8;
+    }
+    #rc a { 
+        text-decoration: none;
+        color: #fcfcfc;
+    }
+    #rc a:hover {
+        background-color: #003333;
+    }
 
 }
+
 @media screen and (min-width:480px){
     #cover-text{padding-top: 20px;width: 30%;height: fit-content;
     }
@@ -477,47 +539,16 @@ footer{
         margin-right: auto;
         border-radius: 5px;}
 }
-@media screen and (min-width:597px){
-            #tp img{margin: auto;width: 450px;}
-            
 
-}
-
-@media screen and (min-width:550px) and (max-width:983){
-    #cover-text{width: 10%;}
-    #tp img{width: 450px;}
-}
-
-@media screen and (min-width:984px){
-    #cover-text{padding-top: 20px;width: 40%;
-    }
-    h1{padding-left: 10px;}
-    #tp img{width: 450px;}
-}
-@media screen and (min-width:1029px){
-    #cover-text{padding-top: 20px;}
-    #tp img{width: 450px;}
-}
-@media screen and (min-width:1222px){
-    #cover-text{padding-top: 20px;}
-    #tp img{width: 450px;}
-}
-
-@media screen and (min-width:1312px){
-    #cover-text{padding-top: 85px;
-        width: 50%;}
-        #tp img{width: 450px;}
-}
-
-@media screen and (min-width:1412px){
-    #cover-text{padding-top: 85px;}
-    #tp img{width: 450px;}
-}
 
 @media screen and (min-width:1533px){
     #cover-text{padding-top: 85px;}
     #tp img{width: 450px;}
 }
+
+/* ----------------ABOUT PAGE STYLES--------------------*/
+/* ----------------ABOUT PAGE STYLES--------------------*/
+/* ----------------ABOUT PAGE STYLES--------------------*/
 /* ----------------ABOUT PAGE STYLES--------------------*/
 
 #heroa{
@@ -527,13 +558,17 @@ footer{
     position: relative;
     
 }
-#aar{color: #fefcfc;font-size: x-large;text-transform: capitalize;position: absolute;
-    bottom: 330px; right: 150px;font-size: 400%;background-color: #990000;padding: 10px 10px 10px 10px;opacity: 0.8;}
-    #rc{color: #fefcfc;font-size:large;text-transform: capitalize;position: absolute;
-        bottom: 100px; right: 100px;font-size: 300%;background-color: #990000;padding: 10px 10px 10px 10px;opacity: 0.8;}
-        #rc a{text-decoration: none;color: #fcfcfc;}
-        #rc a:hover{background-color: #003333;}
-#cover-texta{font-size: 100%;background-color: #003333;
+
+#aara{color: #fefcfc;font-size: x-large;text-transform: capitalize;position: absolute;
+    bottom: 330px; right: 150px;font-size: 300%;background-color: #990000;padding: 10px 10px 10px 10px;opacity: 0.8;}
+    #rca{color: #fefcfc;font-size:large;text-transform: capitalize;position: absolute;
+        bottom: 200px; right: 150px;font-size: 250%;background-color: #990000;padding: 10px 10px 10px 10px;opacity: 0.8;}
+        #rca a{text-decoration: none;color: #fcfcfc;}
+        #rca a:hover{background-color: #003333;
+        }
+
+#cover-texta{
+    font-size: 100%;background-color: #003333;
     text-align: center;
     position: absolute;
     top: 20px;
@@ -578,8 +613,12 @@ footer{
     #au1{background-color: #990000;}
     #au1{display: flex;}
     #ep{justify-content: center; text-align: justify;font-size: 120%;line-height: 40px;padding: 40px;}
-    #epimg{margin-top: 1.5%;}
-/*SERVICES PAGE STYLES*/
+    #epimg{margin-top: 3%;}
+
+/* ------------- SERVICES PAGE STYLES ---------------------*/
+/* ------------- SERVICES PAGE STYLES ---------------------*/
+/* ------------- SERVICES PAGE STYLES ---------------------*/
+/* ------------- SERVICES PAGE STYLES ---------------------*/
 
 #heros{
     background: url("../images/Feature-how-to-choose-a-removal-company.jpg") no-repeat center center/cover;
@@ -589,32 +628,66 @@ position: relative;
 }
 #subc{ font-size:large; width: 200px; height: 50px; font-weight: bold;color: #fcfdfd;margin: 10px 0 10px 0;background-color: #990000;}
 #subc:hover{background-color: #003333;}
+#cover-texts{
+    background-color: #003333;
+    font-size: 130%;
+    position: absolute;
+    top: 20px;
+    width: 50%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    opacity: 0.7;
+    text-align: center;
+}
+#cover-texts h2{font-size: 150%;}
+    #cover-texts h3{font-size: 150%;}
+#aars{color: #fefcfc;font-size: x-large;text-transform: capitalize;position: absolute;
+    bottom: 350px; right: 220px;font-size: 250%;background-color: #990000;padding: 10px 10px 10px 10px;opacity: 0.8;}
+    #rcps{color: #fefcfc;font-size:large;text-transform: capitalize;position: absolute;
+        bottom: 250px; right: 220px;font-size: 250%;background-color: #990000;padding: 10px 10px 10px 10px;opacity: 0.8;}
+        #rcps a{text-decoration: none;color: #fcfcfc;}
+        #rcps a:hover{background-color: #003333;}
 
+/* ------------------ PRODUCTS FOR SALE STYLES --------------------*/
+/* ------------------ PRODUCTS FOR SALE STYLES --------------------*/
+/* ------------------ PRODUCTS FOR SALE STYLES --------------------*/
+/* ------------------ PRODUCTS FOR SALE STYLES --------------------*/
 
-/*PRODUCTS ON SALE STYLES*/
-#herop{background: url("../images/Image_-_Sell_products_online_.jpeg.webp") no-repeat center center/cover;
+#herop {
+    background: url("../images/Image_-_Sell_products_online_.jpeg.webp") no-repeat center center/cover;
     width: 100%;
     height: 600px;
-position: relative;
+    position: relative;
+}
 
-    }
-    #cover-text h2{font-size: 100%;}
-#aarp{color: #fefcfc;font-size: x-large;text-transform: capitalize;position: absolute;
-    bottom: 350px; right: 250px;font-size: 300%;background-color: #990000;padding: 10px 10px 10px 10px;opacity: 0.8;}
-    #rcp{color: #fefcfc;font-size:large;text-transform: capitalize;position: absolute;
-        bottom: 250px; right: 250px;font-size: 200%;background-color: #990000;padding: 10px 10px 10px 10px;opacity: 0.8;}
-        #rcp a{text-decoration: none;color: #fcfcfc;}
-        #rcp a:hover{background-color: #003333;}
+#cover-textp{
+    background-color: #003333;
+    font-size: 130%;
+    position: absolute;
+    top: 20px;
+    width: 50%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    opacity: 0.7;
+    text-align: center;
+}
+#cover-textp h2{font-size: 150%;}
+   
+
 
 /*Gallery*/
 #container{display: flex;}
   h2{text-align: center;margin: 30px 0 30px 0;font-size: 250%;}
   .gallery {
-    margin: 5px;
+    margin-bottom: 20px;
     border: 1px solid #d6d3d3;
     background-color: #990000;
     width: 320px;
-    margin: 50px auto 10px auto;
+   
     
   }
   
@@ -634,6 +707,58 @@ position: relative;
     text-align: center;
   }
 
+
+
+@media screen and (min-width:1024px){
+    #con {
+        column-count: 4;
+    }
+    .gallery { 
+        page-break-inside: avoid;
+    }
+    #container { 
+        margin-bottom: 25px;
+        justify-content: center;
+    }
+    
+    #cover-text { 
+        text-align: center;
+        width: 50%;
+    }   
+    #cover-text h2 {
+        padding-left: 0;
+    }
+
+    #cover-textp{
+        background-color: #003333;
+        font-size: 130%;
+        position: absolute;
+        top: 20px;
+        width: 50%;
+        min-height: 200px;
+        padding-top: 40px;
+        padding: 35px 50px 20px 50px;
+        padding-bottom: 100px;
+        opacity: 0.7;
+        text-align: center;
+    }
+    #cover-textp h2{font-size: 150%;}
+
+
+    #aarp{color: #fefcfc;font-size: x-large;text-transform: capitalize;position: absolute;
+        bottom: 350px; right: 220px;font-size: 250%;background-color: #990000;padding: 10px 10px 10px 10px;opacity: 0.8;}
+        #rcp{color: #fefcfc;font-size:large;text-transform: capitalize;position: absolute;
+            bottom: 250px; right: 220px;font-size: 250%;background-color: #990000;padding: 10px 10px 10px 10px;opacity: 0.8;}
+            #rcp a{text-decoration: none;color: #fcfcfc;}
+            #rcp a:hover{background-color: #003333;}
+}
+
+
+
+
+
+
+/*
   @media screen and (min-width:280px){
   #container{flex-direction:column;}
   #container img{width: 280px;height: fit-content;}
@@ -650,8 +775,9 @@ position: relative;
 #aarp{right: 50px;bottom: 320px;font-size: 150%;background-color: #990000;margin: 0;} 
 #rcp{right: 50px;bottom: 220px;font-size: 150%;background-color: #990000;margin: 0;}     
      
-}
+}*/
 
+/*
 @media screen and (min-width:653px){
    
     #container{align-items: center;}
@@ -664,32 +790,27 @@ position: relative;
   
    
    
-}
+}*/
 
-@media screen and (min-width:1024px){
-    #con{column-count: 3;}
-    .gallery{page-break-inside: avoid;}
-    #container{margin-bottom: 25px;}
-    #aarp{right: 50px;bottom: 320px;font-size: 200%;background-color: #990000;margin: 0;} 
-#rcp{right: 50px;bottom: 220px;font-size: 200%;background-color: #990000;margin: 0;}  
-#cover-text{text-align: center;width: 50%;}   
-#cover-text h2{padding-left: 0;}
-}
 
-@media screen and (min-width:1260px){
-    #con{column-count: 4;}
-    .gallery{display: grid; margin: 0 20px 40px 20px;}
-}
+
+
 @media screen and (min-width:1535px){
     #cover-text{padding: 5px 30px 5px 30px;}
 
 }
 
 /* ------------ GET QUOTE PAGE STYLES --------------*/
+/* ------------ GET QUOTE PAGE STYLES --------------*/
+/* ------------ GET QUOTE PAGE STYLES --------------*/
+/* ------------ GET QUOTE PAGE STYLES --------------*/
+
 #heroq{background: url("../images/house-removal-quotes-scaled-2560x1280.jpg") no-repeat center center/cover;
     width: 100%;
     height: 600px;
 position: relative;}
+
+
 
 #book-surveyq {width: 70%;margin: auto;line-height: 50px;text-align: center;}
 
@@ -706,6 +827,45 @@ input[type=date]{
     font-size: 25px;
 }
 
+
+@media screen and (min-width:1024px){
+   
+    
+    #cover-textq { 
+        text-align: center;
+        width: 50%;
+    }   
+    
+
+    #cover-textq{
+        background-color: #003333;
+        font-size: 130%;
+        position: absolute;
+        top: 20px;
+        width: 50%;
+        min-height: 200px;
+        padding-top: 40px;
+        padding: 35px 50px 20px 50px;
+        padding-bottom: 100px;
+        opacity: 0.7;
+        text-align: center;
+    }
+    #cover-textq h2{font-size:200%;}
+    #cover-textq h3{font-size:200%;}
+
+
+    #aarq{color: #fefcfc;font-size: x-large;text-transform: capitalize;position: absolute;
+        bottom: 350px; right: 220px;font-size: 300%;background-color: #990000;padding: 10px 10px 10px 10px;opacity: 0.8;}
+        #rcq{color: #fefcfc;font-size:large;text-transform: capitalize;position: absolute;
+            bottom: 250px; right: 220px;font-size: 250%;background-color: #990000;padding: 10px 10px 10px 10px;opacity: 0.8;}
+            #rcq a{text-decoration: none;color: #fcfcfc;}
+            #rcq a:hover{background-color: #003333;}
+}
+
+
+/* ------------ CONTACT PAGE STYLES --------------*/
+/* ------------ CONTACT PAGE STYLES --------------*/
+/* ------------ CONTACT PAGE STYLES --------------*/
 /* ------------ CONTACT PAGE STYLES --------------*/
 
 #tpab{margin: 50px auto 50px auto;display: block;}
