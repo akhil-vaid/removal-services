@@ -794,11 +794,7 @@ position: relative;
 
 
 
-/*
-@media screen and (min-width:1535px){
-    #cover-text{padding: 5px 30px 5px 30px;}
 
-}*/
 
 /* ------------ GET QUOTE PAGE STYLES --------------*/
 /* ------------ GET QUOTE PAGE STYLES --------------*/
@@ -867,8 +863,9 @@ input[type=date]{
 /* ------------ CONTACT PAGE STYLES --------------*/
 /* ------------ CONTACT PAGE STYLES --------------*/
 /* ------------ CONTACT PAGE STYLES --------------*/
+
 /* styles for screens larger than 1280px */
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1280px) and (max-width:1300px) {
     #tpab {
         margin: 50px auto 50px auto;
         display: block;
@@ -881,6 +878,8 @@ input[type=date]{
         border-radius: 10px;
     }
 
+    #vans{width:55%;}
+    
     form { 
         justify-content: center;
         text-align: center;
