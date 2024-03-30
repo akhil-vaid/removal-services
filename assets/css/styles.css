@@ -764,6 +764,10 @@ input[type=submit] {
     #contact{font-weight: bold;font-size: 20px;}
     #social-networks li{margin-left: 25px;}
 }
+@media screen and (min-width:1700px) {
+    #rc{display: none;}
+    
+}
 
 
 /* ----------------ABOUT PAGE STYLES--------------------*/
