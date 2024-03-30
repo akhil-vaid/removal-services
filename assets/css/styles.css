@@ -311,7 +311,7 @@ input[type=submit] {
     font-weight: bold;
 }
 
-@media screen and (min-width:280px) and (max-width:480px){
+@media screen and (min-width:280px) and (max-width:380px){
 
     #cover-text{
         background-color: #003333;
@@ -327,6 +327,7 @@ input[type=submit] {
     #cover-text h2{margin: 0;}
     #cover-text h3{text-align: center;}
     #rc { 
+        display: none;
         color: #fefcfc;
         font-size:large;
         text-transform: capitalize;
