@@ -943,8 +943,8 @@ input[type=submit] {
     height: 600px;
 position: relative;
 }
-#subc{ font-size:large; width: 200px; height: 50px; font-weight: bold;color: #fcfdfd;margin: 10px 0 10px 0;background-color: #990000;}
-#subc:hover{background-color: #003333;}
+.subc{ font-size:large; width: 200px; height: 50px; font-weight: bold;color: #fcfdfd;margin: 10px 0 10px 0;background-color: #990000;}
+.subc:hover{background-color: #003333;}
 
 
 
