@@ -1,9 +1,9 @@
 This website project is created for a removal services company based in United Kingdom.  
-Target Audiences:
-Individuals, Businesses & Corporations.
-Users looking for affordable removal services.
-Users interested in professional removal services.
-Users looking for efficient services and prices.
+Target Audiences:  
+Individuals, Businesses & Corporations.  
+Users looking for affordable removal services.  
+Users interested in professional removal services.  
+Users looking for efficient services and prices.  
 
 URL - https://akhil-vaid.github.io/removal-services/  
 Website was checked and tested for responsive design for smartphones, tablets, laptops and desktops
