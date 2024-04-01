@@ -187,7 +187,10 @@ footer {
     text-decoration: none;
     color: #fcfcfc;
 }
-
+#contact li {
+    list-style-type: none;
+    color: #fcfcfc;
+}
 /* ---------- HOME PAGE STYLES -------------*/
 /* ---------- HOME PAGE STYLES -------------*/
 /* ---------- HOME PAGE STYLES -------------*/
