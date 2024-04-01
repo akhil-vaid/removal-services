@@ -5,3 +5,4 @@ Website was checked and tested for responsive design for smartphones, tablets, l
 ![responsive](https://github.com/akhil-vaid/removal-services/assets/161016491/5639f6b4-8110-4f26-9d5f-ff6272d02563)
 
 Website HTML was tested for errors using W3C Markup Validation Service
+![validation](https://github.com/akhil-vaid/removal-services/assets/161016491/a109ccb0-d465-4bc3-a069-c88110b684e2)
