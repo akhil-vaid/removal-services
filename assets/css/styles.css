@@ -270,7 +270,7 @@ main{background-color: #003333;}
 #gimg{width: 100px;height: 100px;margin: auto;}
 #review{background-color: #fa6305;color: #fcfcfc;margin: 0 2% 0 2%;border-radius: 5px;width: 150px;height: 50px;
         margin: 10px auto 10px auto;}
-#sub{ font-size:large; width: 200px; height: 50px; font-weight: bold;color: #003333;margin: 10px 0 10px 0;}
+.sub{ font-size:large; width: 200px; height: 50px; font-weight: bold;color: #003333;margin: 10px 0 10px 0;}
 #award img{width: 280px;height: 250px;display: block;
     margin-left: auto;
     margin-right: auto;
