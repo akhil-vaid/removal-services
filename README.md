@@ -14,4 +14,7 @@ Website was checked and tested for responsive design for smartphones, tablets, l
 
 Website HTML was tested for errors using W3C Markup Validation Service  
 
-![validation](https://github.com/akhil-vaid/removal-services/assets/161016491/a109ccb0-d465-4bc3-a069-c88110b684e2)
+![validation](https://github.com/akhil-vaid/removal-services/assets/161016491/a109ccb0-d465-4bc3-a069-c88110b684e2)  
+
+Many thanks for the support to Westminster Adult Education Services, Code Institute and Mr. Komal Karir
+
