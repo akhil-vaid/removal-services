@@ -14,6 +14,8 @@ Website was checked and tested for responsive design for smartphones, tablets, l
 
 Website HTML was tested for errors using W3C Markup Validation Service  
 
+Website analysed and tested for performance using PageSpeed Insights
+
 ![validation](https://github.com/akhil-vaid/removal-services/assets/161016491/a109ccb0-d465-4bc3-a069-c88110b684e2)  
 
 
