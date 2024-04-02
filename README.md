@@ -14,12 +14,12 @@ Website was checked and tested for responsive design for smartphones, tablets, l
 
 Website HTML was tested for errors using W3C Markup Validation Service  
 
-Website analysed and tested for performance using PageSpeed Insights
+
 
 ![validation](https://github.com/akhil-vaid/removal-services/assets/161016491/a109ccb0-d465-4bc3-a069-c88110b684e2)  
 
 
-
+Website analysed and tested for performance using PageSpeed Insights
 
 
 ![pgtest2](https://github.com/akhil-vaid/removal-services/assets/161016491/f08e7fb1-1d45-442b-b7b1-d81f1dd7cf7a)
